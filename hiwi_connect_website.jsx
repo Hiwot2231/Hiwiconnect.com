@@ -1,0 +1,112 @@
+export default function HiwiConnectWebsite() {
+  return (
+    <div className="min-h-screen bg-white text-gray-800 p-6">
+      <header className="text-center py-10">
+        <h1 className="text-4xl font-bold mb-4">Hiwi Connect Ethiopia</h1>
+        <p className="text-lg max-w-2xl mx-auto">
+          Empowering Ethiopian entrepreneurs with pro bono consulting and global business insights.
+        </p>
+      </header>
+
+      <section className="py-10 border-t">
+        <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
+        <p>
+          To empower young and aspiring Ethiopian entrepreneurs by providing pro bono consulting,
+          facilitating strategic connections, and sharing globally informed business insights to foster
+          a resilient and vibrant entrepreneurial ecosystem in Ethiopia.
+        </p>
+      </section>
+
+      <section className="py-10 border-t">
+        <h2 className="text-2xl font-semibold mb-4">Our Services</h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Business Consultation & Guidance</li>
+          <li>Funding Navigation</li>
+          <li>Networking & Connection Facilitation</li>
+          <li>Information Hub with curated resources</li>
+        </ul>
+      </section>
+
+      <section className="py-10 border-t">
+        <h2 className="text-2xl font-semibold mb-4">Meet the Founders</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="text-xl font-bold">Hiwot Tsegaye</h3>
+            <p>
+              Entrepreneur with experience in Ethiopia and business insights from the Netherlands.
+              Provides culturally relevant and globally informed consulting support.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold">Marian Veenker</h3>
+            <p>
+              Strategic thinker with international experience, supporting Ethiopian entrepreneurs
+              through mentoring and strategic advisory.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10 border-t">
+        <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+        <p>
+          Connect with us on <a href="https://linkedin.com" className="text-blue-600 underline">LinkedIn</a>
+          {' '}or send us a message through our upcoming website contact form.
+        </p>
+      </section>
+
+      <section className="py-10 border-t">
+        <h2 className="text-2xl font-semibold mb-4">Blog</h2>
+        <div className="space-y-6">
+          <article className="bg-gray-50 p-4 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">How to Build a Resilient Business in Ethiopia</h3>
+            <p>
+              Discover practical strategies to overcome uncertainty, navigate bureaucracy, and maintain momentum as a startup founder in Ethiopia.
+            </p>
+          </article>
+          <article className="bg-gray-50 p-4 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">Lessons from European Entrepreneurs</h3>
+            <p>
+              A summary of business habits and frameworks that Ethiopian entrepreneurs can adapt to improve planning, efficiency, and innovation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section className="py-10 border-t">
+        <h2 className="text-2xl font-semibold mb-4">Subscribe to Updates</h2>
+        <form className="max-w-md mx-auto">
+          <label className="block mb-2 font-medium">Email address</label>
+          <input type="email" placeholder="Enter your email" className="w-full border px-4 py-2 rounded mb-4" />
+          <button
+            type="submit"
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+            Subscribe
+          </button>
+        </form>
+      </section>
+
+      <section className="py-10 border-t">
+        <h2 className="text-2xl font-semibold mb-4">FAQ</h2>
+        <div className="space-y-4">
+          <div>
+            <h3 className="font-semibold">Who can request consulting services?</h3>
+            <p>Young and aspiring Ethiopian entrepreneurs, including diaspora members.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Are the services really free?</h3>
+            <p>Yes, all consultations and support are provided on a pro bono basis.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">How do I schedule a consultation?</h3>
+            <p>Reach out via LinkedIn or our website contact form (coming soon).</p>
+          </div>
+        </div>
+      </section>
+
+      <footer className="text-center py-6 border-t mt-10 text-sm text-gray-500">
+        &copy; {new Date().getFullYear()} Hiwi Connect Ethiopia. All rights reserved.
+      </footer>
+    </div>
+  );
+}
